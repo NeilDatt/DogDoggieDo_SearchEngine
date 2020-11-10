@@ -2,5 +2,13 @@
 /* BARK BARK */
 /* DogDoggieDo_SearchEngine🐶 */
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#search{
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
 }
