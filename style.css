@@ -32,7 +32,6 @@ body{
 
 .search{
     margin-top: 20px;
-    text-align:center;
 }
 
 .titleP{
@@ -144,5 +143,4 @@ input{
     border: 6px solid rgb(101, 124, 255);
     height: 40px;
     border-radius: 50px;
-    text-align: center;
 }
