@@ -1,0 +1,24 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "Dog Doggie Do search engine version 1.0.0 node.js",
+  "main": " touch scape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilDatt/DogDoggieDo_SearchEngine.git"
+  },
+  "author": "Neil and Pranjal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeilDatt/DogDoggieDo_SearchEngine/issues"
+  },
+  "homepage": "https://github.com/NeilDatt/DogDoggieDo_SearchEngine#readme",
+  "keywords": [],
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {}
+}
