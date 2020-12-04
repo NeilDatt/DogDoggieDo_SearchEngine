@@ -153,6 +153,18 @@ input{
     height: 40px;
     border-radius: 10px;
     margin-top: 20px;
+<<<<<<< HEAD
+=======
+    transition: 0.6s;
+}
+
+input:hover{
+    width: 450px;
+    border: 6px solid rgb(27, 255, 19);
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.6s;
+>>>>>>> 266b66efb8d5e136e8bf84e76389b90a34224db5
 }
 
 .microphone{
@@ -161,4 +173,8 @@ input{
     position: absolute;
     margin-left: 10px;
     margin-top: 5px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 266b66efb8d5e136e8bf84e76389b90a34224db5
