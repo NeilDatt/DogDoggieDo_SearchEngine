@@ -1,1 +1,23 @@
-/* hello */
+#searchFinal h1 {
+  font-size: 40px;
+  color: red;
+}
+#searchFinal .MII {
+  display: inline;
+}
+#searchFinal .h {
+  color: red;
+  position: absolute;
+  border: 5px solid blueviolet;
+  margin-left: 40%;
+}
+.links {
+  display: inline;
+}
+a {
+}
+#all {
+  background-color: gray;
+  height: 200px;
+  width: 200px;
+}
