@@ -1,3 +1,325 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    cursor: default;
+}
+
+.head{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(46, 46, 46);
+    transition: 0.8s;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.head:hover{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(8, 231, 19);
+    transition: 0.8s;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sub_title{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(46, 46, 46);
+    transition: 0.8s;
+    position: absolute;
+}
+
+.sub_title:hover{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(8, 231, 19);
+    transition: 0.8s;
+    position: absolute;
+}
+
+.MDI{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+    margin-left: 30px;
+}
+
+.MDI:hover{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(8, 231, 19);
+    transition: 0.8s;
+}
+
+.ind_emoji{
+    position: absolute;
+    margin-left: 15px;
+}
+
+.all_a{
+    position: absolute;
+}
+
+.videos_a{
+    position: absolute;
+}
+
+.shopping_a{
+    position: absolute;
+}
+
+.news_a{
+    position: absolute;
+}
+
+.images_a{
+    position: absolute;
+}
+
+
+.MDI_div{
+    background: rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    justify-self: start;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 920px;
+    margin-top: -10px;
+    transition: 0.5s;
+    border-radius: 10px 10px 10px 2200px;
+}
+
+.MDI_div:hover{
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    justify-self: start;
+    justify-content: center;
+    align-items: center;
+    margin-left: 920px;
+    margin-top: -10px;
+    transition: 0.5s;
+    border-radius: 10px 10px 10px 2200px;
+}
+
+.MDI_subDiv{
+    background: rgb(20, 20, 20);
+    height: 400px;
+    width: 390px;
+    margin-left: 5px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    border-radius: 10px 10px 10px 2200px;
+}
+
+.MDI_subDiv:hover{
+    background: rgb(205, 205, 205);
+    height: 400px;
+    width: 390px;
+    margin-left: 5px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    border-radius: 10px 10px 10px 2200px;
+}
+
+.MDI_subDiv2{
+    background: rgb(40, 40, 40);
+    height: 400px;
+    width: 370px;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(241, 241, 241);
+    transition: 1.5s;
+}
+
+.MDI_subDiv2:hover{
+    background: rgb(185, 185, 185);
+    height: 400px;
+    width: 370px;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(241, 241, 241);
+    transition: 1.5s;
+}
+
+.MDI_subDiv3{
+    background: rgb(60, 60, 60);
+    height: 400px;
+    width: 350px;
+    margin-left: 13px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(241, 241, 241);
+    transition: 2s;
+}
+
+.MDI_subDiv3:hover{
+    background: rgb(165, 165, 165);
+    height: 400px;
+    width: 350px;
+    margin-left: 13px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(241, 241, 241);
+    transition: 2s;
+}
+
+.MDI_subDiv4{
+    background: rgb(90, 90, 90);
+    height: 400px;
+    width: 325px;
+    margin-left: 17px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(241, 241, 241);
+    transition: 2.5s;
+}
+
+.MDI_subDiv4:hover{
+    background: rgb(130, 130, 130);
+    height: 400px;
+    width: 325px;
+    margin-left: 17px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(255, 255, 255);
+    transition: 2.5s;
+}
+
+.MDI_subDiv5{
+    background: rgb(110, 110, 110);
+    height: 400px;
+    width: 300px;
+    margin-left: 19px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(0, 0, 0);
+    transition: 3s;
+}
+
+.MDI_subDiv5:hover{
+    background: rgb(110, 110, 110);
+    height: 400px;
+    width: 300px;
+    margin-left: 19px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(255, 255, 255);
+    transition: 3s;
+}
+
+.MDI_subDiv6{
+    background: rgb(130, 130, 130);
+    height: 400px;
+    width: 290px;
+    margin-left: 19px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(0, 0, 0);
+    transition: 3.5s;
+}
+
+.MDI_subDiv6:hover{
+    background: rgb(90, 90, 90);
+    height: 400px;
+    width: 290px;
+    margin-left: 19px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(255, 255, 255);
+    transition: 3.5s;
+}
+
+.MDI_subDiv7{
+    background: rgb(160, 160, 160);
+    height: 400px;
+    width: 276px;
+    margin-left: 20px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(0, 0, 0);
+    transition: 4s;
+}
+
+.MDI_subDiv7:hover{
+    background:  rgb(70, 70, 70);
+    height: 400px;
+    width: 276px;
+    margin-left: 19px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(255, 255, 255);
+    transition: 4s;
+}
+
+.MDI_subDiv8{
+    background: rgb(180, 180, 180);
+    height: 400px;
+    width: 260px;
+    margin-left: 25px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(0, 0, 0);
+    transition: 4.5s;
+}
+
+.MDI_subDiv8:hover{
+    background: rgb(50, 50, 50);
+    height: 400px;
+    width: 260px;
+    margin-left: 19px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(255, 255, 255);
+    transition: 4.5s;
+}
+
+.MDI_subDiv9{
+    background: rgb(202, 201, 201);
+    height: 400px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 10px 10px 10px 2200px;;
+    color: rgb(0, 0, 0);
+    transition: 5s;
+}
+
+.MDI_subDiv9:hover{
+    background: rgb(31, 30, 30);
+    height: 400px;
+    width: 260px;
+    margin-left: 19px;
+    border-radius: 10px 10px 10px 2200px;;
+    color: rgb(255, 255, 255);
+    transition: 5s;
+}
+
+.MDI_subDiv10{
+    background: rgb(221, 221, 221);
+    height: 400px;
+    width: 250px;
+    margin-left: 35px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(0, 0, 0);
+    transition: 5.5s;
+}
+
+.MDI_subDiv10:hover{
+    background: rgb(7, 7, 7);
+    height: 400px;
+    width: 250px;
+    margin-left: 35px;
+    border-radius: 10px 10px 10px 2200px;
+    color: rgb(255, 255, 255);
+    transition: 5.5s;
+}
+=======
 #searchFinal h1 {
   font-size: 40px;
   color: red;
@@ -21,3 +343,4 @@ a {
   height: 200px;
   width: 200px;
 }
+>>>>>>> 21e6ec6874a66dc3a7eac5c6f442ce6835f8ab5f
