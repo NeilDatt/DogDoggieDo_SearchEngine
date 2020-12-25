@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <button id="mike" onclick="mathTry()">
+      <i class="flaticon-microphone"></i>
+    </button>
+    <script>
+      const SpeechRecognition =
+        window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
+      function mikeListen() {
+        const speech = new SpeechSynthesisUtterance();
+        window.speechSynthesis.speak(speech);
+        chatareamain.appendChild(showchatbotmsg(speech.text));
+      }
+      recognition.onresult = function (e) {
+        let resultIndex = e.resultIndex;
+        let transcript = e.results[resultIndex][0].transcript;
+        chatareamain.appendChild(showusermsg(transcript));
+        chatbotvoice(transcript);
+        console.log(transcript);
+      };
+      recognition.onend = function () {
+        mic.style.background = "#000000";
+      };
+      mic.addEventListener("click", function () {
+        mic.style.background = "#000000";
+        recognition.start();
+        console.log("Activated");
+      });
+    </script>
+  </body>
+</html>
